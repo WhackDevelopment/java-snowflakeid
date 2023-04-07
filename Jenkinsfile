@@ -35,7 +35,7 @@ pipeline {
             }
             post {
                 success {
-                    archiveArtifacts artifacts: 'snowflake/build/libs/*.jar', fingerprint: true
+                    archiveArtifacts artifacts: 'out/*.jar', fingerprint: true
                 }
             }
         }
