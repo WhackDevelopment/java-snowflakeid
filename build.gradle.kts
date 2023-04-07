@@ -119,7 +119,7 @@ subprojects {
                     }
                 }
                 repositories {
-                    maven("https://repo.whackdevelopment.com/repository/maven-snapshot/") {
+                    maven("https://repo.whackdevelopment.com/repository/maven-snapshots/") {
                         this.name = "whackdevelopment-snapshots"
                         credentials {
                             this.password = System.getProperty("publishPassword")

@@ -35,11 +35,11 @@
 // Repository - Groovy
 maven {
     name = "whackdevelopment-snapshots"
-    url = "https://repo.whackdevelopment.com/repository/maven-snapshot/"
+    url = "https://repo.whackdevelopment.com/repository/maven-snapshots/"
 }
 
 // Repository - Kotlin DSL
-maven("https://repo.whackdevelopment.com/repository/maven-snapshot/")
+maven("https://repo.whackdevelopment.com/repository/maven-snapshots/")
 ```
 
 #### Gradle import
@@ -58,7 +58,7 @@ implementation("com.whackdevelopment.snowflake:snowflakeid:1.0.0-SNAPSHOT")
 
 <repository>
     <id>whackdevelopment-snapshots</id>
-    <url>https://repo.whackdevelopment.com/repository/maven-snapshot/</url>
+    <url>https://repo.whackdevelopment.com/repository/maven-snapshots/</url>
 </repository>
 ```
 
