@@ -21,6 +21,14 @@
 
 # Java SnowflakeIds
 
+<div align="center">
+    <a target="_blank" href='https://ci.whackdevelopment.com/job/java-snowflakeid/'>
+        <img src='https://ci.whackdevelopment.com/buildStatus/icon?style=flat-square&job=java-snowflakeid'>
+    </a>
+</div>
+
+---
+
 ## Implementation of Java-SnowflakeId
 
 ## Usage
