@@ -119,8 +119,8 @@ subprojects {
                     }
                 }
                 repositories {
-                    maven("https://repo.whckdevelopment.com/repository/maven-snapshot/") {
-                        this.name = "whckdevelopment-snapshots"
+                    maven("https://repo.whackdevelopment.com/repository/maven-snapshot/") {
+                        this.name = "whackdevelopment-snapshots"
                         credentials {
                             this.password = System.getProperty("publishPassword")
                             this.username = System.getProperty("publishName")
