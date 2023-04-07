@@ -9,6 +9,7 @@ pipeline {
         stage("Clean") {
             steps {
                 sh "chmod +x ./gradlew";
+                sh "rm -rf ./out/ || true";
                 sh "./gradlew licenseFormat clean";
             }
         }
@@ -35,7 +36,7 @@ pipeline {
             }
             post {
                 success {
-                    archiveArtifacts artifacts: './out/*.jar', fingerprint: true
+                    archiveArtifacts artifacts: 'out/unshaded/*.jar', fingerprint: true
                 }
             }
         }
